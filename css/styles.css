@@ -1,19 +1,19 @@
 /* Style sheet for my portfolio */
-* {
-    /* Use Roboto from GoogleFonts,	available in 300 400 500 700 */
-    font-family: 'Roboto', sans-serif;
-    /* Smooth transitions for media queries */
-    transition: 0.5s ease;
-}
 
 body,
 html {
+    /* Use Roboto from GoogleFonts, available in 300 400 500 700 */
+    font-family: 'Roboto', sans-serif;
+    /* Smooth transitions for media queries */
+    transition: 0.5s ease;
+    /* full page */
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-img, picture {
+img,
+picture {
     max-width: 100%;
     height: auto;
 }
@@ -112,7 +112,7 @@ img, picture {
     margin-bottom: 5px;
 }
 
-.fw-url a {
+.fw-url-link {
     color: #677;
     text-decoration: none;
 }
@@ -132,7 +132,7 @@ img, picture {
     text-align: center;
 }
 
-.my-footer a {
+.footer-link {
     color: white;
     text-decoration: none;
 }
@@ -224,7 +224,7 @@ img, picture {
         font: 400 1em Roboto, sans-serif;
     }
 
-    .fw-url a {
+    .fw-url {
         font: 700 0.8em Roboto, sans-serif;
     }
 }
